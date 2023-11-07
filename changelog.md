@@ -1,4 +1,4 @@
-# changelog
+# Changelog
 v0.1 - Made a random letter generator with occasional spaces that types every 150ms  
 v0.2 - Changed it to typing a specified text, instead of random letters  
 v0.3 - Added an input box and multiple possible subjects to choose from  
