@@ -1,2 +1,2 @@
 # work-emulator
-A website that immitates you typing text to fake your work.
+A website that immitates you typing text on common office apps to fake your work.
