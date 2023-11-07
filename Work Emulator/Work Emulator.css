@@ -1,0 +1,52 @@
+body {
+  background-image: linear-gradient(to bottom, pink, yellow), url("");
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  margin: 0;
+}
+
+main {
+  font-family: ;
+  background-color: ;
+  color: ;
+  margin: 0vh 5vw;
+  font-size: 1.7vw;
+}
+
+h1 {
+  font-size: 4.8vw;
+  margin-top: 4vh;
+  margin-bottom: 0;
+}
+
+section {
+  margin: 4vh 10vw 4.8vh;
+}
+
+h2 {
+  font-size: 2.5vw;
+  margin-bottom: 0.5vh;
+  margin-top: 0;
+}
+
+input {
+  margin-bottom: 1.5vh;
+}
+
+button {
+  font-size: 1.5vw;
+  padding: 2vh 1.5vw;
+  margin: 0.1vh 0 3vh 4.1vw;
+
+}
+
+footer {
+  position: absolute;
+  margin: 0;
+  bottom : 4vh;
+  right: 3vw;
+}
+
+article {
+  display: none;
+}
