@@ -25,4 +25,7 @@ v2.02 - Fixed an error with substring
 v2.1 - Made the text reset upon overflow for both PowerPoint and Word  
 v2.11 - Fixed all the the errors with margins  
 v2.12 - Decreasing the typing speed by 20ms  
-v2.2 - Added a footer and a smart-ass prevention system
+v2.2 - Added a footer and a smart-ass prevention system  
+v2.21 - Adjusted the font size for higher resolutions than 1080p  
+v2.3 - Optimized the code by using variable asset names, instead of predefined strings, such as "word.css"  
+v2.4 - Fixed README.md showing the wrong version and removed old, deprecated readme.txt
