@@ -7,8 +7,6 @@ var text = document.getElementsByClassName("text")[1];
 var small = document.getElementById("slide3");
 var letter = 200;
 
-document.getElementById("css").href = "PowerPoint.css";
-document.getElementById("icon").href = "ppicon.png";
 document.title = "Untitled.pptx";
 var subject = document.getElementsByName("subject");
 for (var i = 0; i < subject.length; i++) {

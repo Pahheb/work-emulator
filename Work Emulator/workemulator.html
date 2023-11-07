@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Work Emulator.exe</title>
   <link rel="icon" href="icon.png" type="image/x-icon" id="icon">
-  <link rel="stylesheet" href="Work Emulator.css" id="css">
+  <link rel="stylesheet" href="workemulator.css" id="css">
 
   <style>
     html {
@@ -25,6 +25,9 @@
 
   <script type="text/javascript">
     console.log("Hey! Don't stick your nose in my code!");
+    function enable() {
+      document.getElementById("button").disabled = false;
+    };
     var text = document.getElementsByClassName("text");
     var script = document.createElement("script");
     function launch() {
@@ -33,31 +36,27 @@
       for (var i = 0; i < application.length; i++) {
         if (application[i].checked) {
           var application = application[i].value;
+          break;
         }
       }
-      if (application == "word") {
-        document.getElementById("word").style.display = "block";
-        script.src = "Word.js";
-        document.head.appendChild(script);
-      }
-      if (application == "powerpoint") {
-        document.getElementById("powerpoint").style.display = "block";
-        script.src = "PowerPoint.js";
-        document.head.appendChild(script);
-      }
       if (application == "atom") {
-        /*document.getElementById("atom").style.display = "block";
+        /*document.getElementById(application).style.display = "block";
         script.src = "Atom.js";
         document.head.appendChild(script);*/
         alert("It's disabled for a reason, smartass.");
         window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be&ab_channel=RickAstleyVEVO";
       }
+      document.getElementById(application).style.display = "block";
+      script.src = (application + ".js");
+      document.head.appendChild(script);
+      document.getElementById("css").href = (application + ".css");
+      document.getElementById("icon").href = (application + "icon.png");
     }
   </script>
 
 </head>
 
-<body>
+<body onload="enable()">
   <main id="menu">
     <h1>Welcome to Work Emulator<sup>&#174;&#169;&#8482;</sup></h1>
     <section id="application">
@@ -74,7 +73,7 @@
       <input type="radio" name="subject" value="english"> English<br>
       <input type="radio" name="subject" value="economics"> Economics<br>
     </section>
-    <button id="button" onclick="launch()">Launch</button>
+    <button id="button" onclick="launch()" disabled>Launch</button><noscript>Mannn, yo script is dead.</noscript>
     <footer>
       <adress>Developed and published by Pahheb</adress>
     </footer>

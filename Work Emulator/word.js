@@ -6,8 +6,6 @@ var economics = "Las necesidades primarias son las que no podemos vivir sin, com
 var text = document.getElementsByClassName("text")[0];
 var letter = 500;
 
-document.getElementById("css").href = "Word.css";
-document.getElementById("icon").href = "wordicon.png";
 document.title = "Untitled.docx";
 var subject = document.getElementsByName("subject");
 for (var i = 0; i < subject.length; i++) {

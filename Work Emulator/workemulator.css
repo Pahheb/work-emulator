@@ -50,3 +50,7 @@ footer {
 article {
   display: none;
 }
+
+noscript {
+  padding-left: 1.3vw;
+}
