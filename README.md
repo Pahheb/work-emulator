@@ -15,6 +15,6 @@ This application is intended to be thoroughly tested as a private, hidden projec
 Please extract the folder within the .zip file for the application to function properly.
 
 ## To-do
-- Add form for inputting string to be typed instead of predefined subjects
-- Make the font scale with the screen resolution
-- Add dark mode, using cookies
+- [ ] Add form for inputting string to be typed instead of predefined subjects
+- [ ] Make the font scale with the screen resolution
+- [ ] Add dark mode, using cookies
