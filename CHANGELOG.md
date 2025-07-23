@@ -29,3 +29,4 @@ v2.2 - Added a footer and a smart-ass prevention system
 v2.21 - Adjusted the font size for higher resolutions than 1080p  
 v2.3 - Optimized the code by using variable asset names, instead of predefined strings, such as "word.css"  
 v2.4 - Fixed README.md showing the wrong version and removed old, deprecated readme.txt
+v2.5 - Added WTFPL license and adjusted README.md

@@ -1,20 +1,16 @@
 # Work Emulator
+_Work Emulator_ is an HTML page that aims to resemble common workplace apps, and types text in them to make it look like you're accomplishing something greater than pure procrastination.
 
-Hello and welcome to 'Work Emulator v2.4'.  
-Thank you for participating in the Beta test of this software.
-
-## Code of conduct
-'Work Emulator ltd' is not responsible for any damage done during use of this application.  
+## Terms of Service
+_Work Emulator_ is not responsible for any damage done during the use of this application.
 Any allegations or claims about the software causing problems, output loss or general disruption during work, will be dismissed without further notice.
 
-## Terms of service
-Please do not redistribute this software without consent or spread rumours about it before its official release.  
-This application is intended to be thoroughly tested as a private, hidden project.
-
 ## Usage
-Please extract the folder within the .zip file for the application to function properly.
+Open up "/Work Emulator/workemulator.html" in your go-to browser, and then select the website and the topic.
+> [!NOTE]
+> Please extract the folder within the .zip file for the application to function properly.
 
 ## To-do
-- [ ] Add form for inputting string to be typed instead of predefined subjects
+- [ ] Add form for inputting the string to be typed instead of having predefined subjects
 - [ ] Make the font scale with the screen resolution
 - [ ] Add dark mode, using cookies
